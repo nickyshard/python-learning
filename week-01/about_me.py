@@ -1,5 +1,9 @@
-name = input("¿Cómo te llamas?")
-degree = input("¿Cuál es tu nivel de estudios?")
-current_focus = input("¿Qué estas estudiando?")
-target = input("¿Cuál es tu objetivo?")
-print (f"Name: {name}. Degree: {degree}. Current focus: {current_focus}. Target: {target} ")
+name = "Tu Nombre"
+degree = "Telecommunications Engineering"
+current_focus = "Software Engineering"
+target = "Cloud / Backend Engineering"
+
+print(f"Name: {name}")
+print(f"Degree: {degree}")
+print(f"Current focus: {current_focus}")
+print(f"Target: {target}")
