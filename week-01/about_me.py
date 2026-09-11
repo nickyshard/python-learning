@@ -1,4 +1,4 @@
-name = "Tu Nombre"
+name = "Nicolás Shardlow"
 degree = "Telecommunications Engineering"
 current_focus = "Software Engineering"
 target = "Cloud / Backend Engineering"
