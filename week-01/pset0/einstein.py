@@ -1,7 +1,7 @@
 def main():
-    num = input("m= ")
-    num = calculator(num)
-    print(num)
+    mass = input("m= ")
+    energy = calculator(mass)
+    print(energy)
 
 
 def calculator(mass):
