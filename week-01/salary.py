@@ -1,21 +1,12 @@
 def main():
-    mes = input("¿Cuánto ganas al mes? ")
-    anual = calculator(mes)
-    print(anual)
+    monthly = float(input("Monthly salary: ").removesuffix("€"))
+    yearly_12 = annual_salary(monthly, 12)
+    yearly_14 = annual_salary(monthly, 14)
+    print(f"{yearly_12:,.2f}€ per year in 12 payments, {yearly_14:,.2f}€ in 14.")
 
 
-def calculator(m):
-    m = float(m.removesuffix("€"))
-    a12 = m * 12
-    a14 = m * 14
-    resultado = str(
-        "Ganas "
-        + f"{a12:,}"
-        + "€ al año en 12 pagas y "
-        + f"{a14:,}"
-        + "€ en 14 pagas."
-    )
-    return resultado
+def annual_salary(monthly, payments):
+    return monthly * payments
 
 
 main()
